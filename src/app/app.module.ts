@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { LayoutComponent } from './layout/layout.component';
 import { ContactComponent } from './contact/contact.component';
+import { InscriptionComponent } from './inscription/inscription.component';
+import { ConnexionComponent } from './connexion/connexion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccueilComponent,
     LayoutComponent,
-    ContactComponent
+    ContactComponent,
+    InscriptionComponent,
+    ConnexionComponent
   ],
   imports: [
     BrowserModule,
