@@ -1,0 +1,24 @@
+<app-layout>
+<div *ngFor="let d of data">
+    <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="alert alert-success">
+              <h5 class="card-title">{{d.title}}</h5>
+              <p class="card-text">{{d.body}}</p><br>
+              <a href="#" class="btn btn-warning">Lire la Suite</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="alert alert-success">
+              <h5 class="card-title">{{d.title}}</h5>
+              <p class="card-text">{{d.body}}</p><br>
+              <a href="#" class="btn btn-warning">Lire la Suite</a>
+            </div>             
+          </div>
+        </div>
+      </div>
+</div>
+</app-layout>

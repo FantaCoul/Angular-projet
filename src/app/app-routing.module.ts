@@ -4,13 +4,15 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { ContactComponent } from './contact/contact.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { ConnexionComponent } from './connexion/connexion.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes =
  [
   {path:'accueil', component:AccueilComponent},
   {path:'contact', component:ContactComponent},
   {path:'inscription', component:InscriptionComponent},
-  {path:'connexion', component:ConnexionComponent}
+  {path:'connexion', component:ConnexionComponent},
+  {path:'blog', component:BlogComponent}
 ];
 
 

@@ -1,4 +1,10 @@
 <app-layout>
     <h1>Contact</h1>
+    {{prenom}} {{nom}} est connecté ?: {{estConnecte}};
+    <p>Nous sommes en {{annee[3]}}</p>
+    il y'a 2ans nous etions en {{annee1[0]}}
+    <p *ngFor="let a of annee1">
+        {{a}}
+    </p>
 </app-layout>
 
