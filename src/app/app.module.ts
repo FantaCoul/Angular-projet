@@ -9,6 +9,10 @@ import { ContactComponent } from './contact/contact.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { BlogComponent } from './blog/blog.component';
+import { ExerciceComponent } from './exercice/exercice.component';
+import { VoirComponent } from './voir/voir.component';
+import { GallerieComponent } from './gallerie/gallerie.component';
+import { AfficherComponent } from './afficher/afficher.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { BlogComponent } from './blog/blog.component';
     ContactComponent,
     InscriptionComponent,
     ConnexionComponent,
-    BlogComponent
+    BlogComponent,
+    ExerciceComponent,
+    VoirComponent,
+    GallerieComponent,
+    AfficherComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,46 @@
+<app-layout>
+    <div *ngFor="let d of data">&nbsp;
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://phototrend.fr/wp-content/uploads/2017/04/kal-visuals-592051-940x627.jpg">
+            <img src="{{d.thumbnailUrl}}" alt="Cinque Terre">
+          </a>
+          <div class="desc">{{d.title}}</div>
+          <div class="desc"><a  routerLink="/afficher/{{d.id}}" class="btn btn-primary" >Voir le profil</a></div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.mynclub.com/wp-content/uploads/2020/05/photographer-with-tripod-young-man-taking-photo-with-his-camera-in-the-night-city-budapest-hungary_t20_doPXZB.jpg">
+            <img src="{{d.thumbnailUrl}}" alt="Forest">
+          </a>
+          <div class="desc">{{d.title}}</div>
+          <div class="desc"><a  routerLink="/afficher/{{d.id}}" class="btn btn-primary" >Voir le profil</a></div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://1.bp.blogspot.com/-WMB4j4KnyBY/X7WG7uruTdI/AAAAAAAACW0/Vx79ZBytcEI6WbsJrXrcOzFMsoqOLQxjwCLcBGAsYHQ/s1280/man-1150058_1280.jpg">
+            <img src="{{d.thumbnailUrl}}">
+          </a>
+          <div class="desc">{{d.title}}</div>
+          <div class="desc"><a  routerLink="/afficher/{{d.id}}" class="btn btn-primary" >Voir le profil</a></div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://phototrend.fr/wp-content/uploads/2017/03/kane-reinholdtsen-188778-940x627.jpg">
+            <img src="{{d.thumbnailUrl}}" alt="Mountains">
+          </a>
+          <div class="desc">{{d.title}}</div>
+          <div class="desc"><a  routerLink="/afficher/{{d.id}}" class="btn btn-primary" >Voir le profil</a></div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+    </div>
+</app-layout>
+

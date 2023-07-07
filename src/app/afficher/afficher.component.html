@@ -1,0 +1,26 @@
+<app-layout>
+
+    <div class="card" style="width: 18rem;">
+        <dt class="col-sm-3">Id</dt>
+        <dd class="col-sm-9">{{id}}</dd><br><br>
+        <img class="card-img-top" src="{{data.thumbnailUrl}}" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">{{data.title}}</p>
+        </div>
+      </div>
+
+    <div class="card">
+    <dl class="row">
+
+        <dt class="col-sm-3">Id</dt>
+        <dd class="col-sm-9">{{id}}</dd><br><br>
+        
+        <dt class="col-sm-3">Image</dt>
+        <dd class="col-sm-9">{{data.thumbnailUrl}}</dd><br><br>
+
+        <dt class="col-sm-3">Titre</dt>
+        <dd class="col-sm-9">{{data.title}}</dd>
+
+      </dl>
+    </div>
+</app-layout>

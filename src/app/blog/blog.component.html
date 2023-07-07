@@ -5,8 +5,11 @@
           <div class="card">
             <div class="alert alert-success">
               <h5 class="card-title">{{d.title}}</h5>
+              <hr>
               <p class="card-text">{{d.body}}</p><br>
-              <a href="#" class="btn btn-warning">Lire la Suite</a>
+              <a routerLink="/voir/{{d.id}}" class="btn btn-primary">Voir</a>   &nbsp;
+              <a href="#" class="btn btn-warning">Modifier</a> &nbsp;
+              <a href="#" class="btn btn-danger">Supprimer</a>
             </div>
           </div>
         </div>
@@ -14,10 +17,14 @@
           <div class="card">
             <div class="alert alert-success">
               <h5 class="card-title">{{d.title}}</h5>
+              <hr>
               <p class="card-text">{{d.body}}</p><br>
-              <a href="#" class="btn btn-warning">Lire la Suite</a>
+              <a  routerLink="/voir/{{d.id}}" class="btn btn-primary">Voir</a> &nbsp;
+              <a href="#" class="btn btn-warning">Modifier</a> &nbsp;
+              <a href="#" class="btn btn-danger">Supprimer</a>
             </div>             
           </div>
+          
         </div>
       </div>
 </div>
